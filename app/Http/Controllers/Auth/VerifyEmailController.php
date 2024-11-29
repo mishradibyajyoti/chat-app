@@ -24,4 +24,8 @@ class VerifyEmailController extends Controller
 
         return redirect()->intended(route('dashboard', absolute: false).'?verified=1');
     }
+
+    public function Dibya(Request $request){
+        return ("Good Morning");
+    }
 }

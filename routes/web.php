@@ -10,7 +10,7 @@ Route::get('/dashboard', function(){
     return view('dashboard',['users' => $users]);
 
 })->name('dashboard');
-
+ 
 Route::get('/chat/{id}', function($id){
     return view('chat',['id' => $id]);
 

@@ -28,4 +28,8 @@ class VerifyEmailController extends Controller
     public function Dibya(Request $request){
         return ("Good Morning");
     }
+
+    public function DibyaBugfix(Request $request){
+        return ("Good Morning");
+    }
 }

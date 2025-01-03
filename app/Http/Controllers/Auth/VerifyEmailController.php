@@ -26,6 +26,7 @@ class VerifyEmailController extends Controller
     }
 
     public function Dibya(Request $request){
+        dd("bug fixed");
         return ("Good Morning");
     }
 

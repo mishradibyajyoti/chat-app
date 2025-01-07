@@ -33,6 +33,7 @@ class VerifyEmailController extends Controller
     }
 
     public function DibyaBugfix(Request $request){
+        dd("Bug in 7 jan");
         return ("Good Morning");
     }
 }

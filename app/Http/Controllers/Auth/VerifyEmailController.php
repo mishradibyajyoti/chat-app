@@ -34,6 +34,7 @@ class VerifyEmailController extends Controller
 
     public function DibyaBugfix(Request $request){
         dd("Bug iin Prod");
+        dd("its 2k25");
         return ("Good Morning");
     }
 }

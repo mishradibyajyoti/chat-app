@@ -39,6 +39,7 @@ class VerifyEmailController extends Controller
         dd("Fix message for  purple mode");
         dd("Add Another file ");
         dd("Add Another file 1");
+        dd("Add Another file 2");
         return ("Good Morning");
     }
 }
